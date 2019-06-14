@@ -1,3 +1,5 @@
+@snap[west span-30]
+
 # Feedback ROSCON FR 2019
 
 ---
@@ -26,6 +28,8 @@
 - New distro Dashing Diademata
 - Add Python and CLI Support
 - New way
+
+@snapend
 
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 @title[Customize Slide Layout]
