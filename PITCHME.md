@@ -1,9 +1,5 @@
 
-@snap[west span-100]
-
 # Feedback ROSCON FR 2019
-
-@snapend
 
 ---
 
@@ -32,9 +28,9 @@
 
 ### ROS2 main features
 
-@snap[text-05 text-black]
+@snap[text-05 text-black text-left]
 @ul[](false)
-- No more rosmaster (standalone node with broadcasting system)
+- No more rosmaster (standalone node with broadcasting system : ROS2 is a distributed system)
 - Deterministic execution (control on configuration/active/inactive status)
 - No more nodelets (ROS2 nodes ~ nodelets)
 - Realtime control
@@ -43,6 +39,7 @@
 - Validation/Verification/Certification tools (for industrial critical apps)
 - Python support and same CLI/GUI tools as ROS1 (eg. rqt, rviz, ...)
 - Rosbag format different (but you can still read ROS1 rosbag with ROS2)
+- Actions nativly integrated with CLI tools (just like Services / Topics)
 @ulend
 @snapend
 
@@ -50,7 +47,7 @@
 
 ### ROS and the industry
 
-@snap[text-05 text-black]
+@snap[text-05 text-black text-left]
 **Why ?**
 
 @ul[](false)
@@ -60,7 +57,7 @@
 @ulend
 @snapend
 
-@snap[text-05 text-black]
+@snap[text-05 text-black text-left]
 **How ?**
 
 @ul[](false)
@@ -75,7 +72,7 @@
 
 ### Simulators
 
-@snap[text-05 text-black]
+@snap[text-05 text-black text-left]
 **Gazebo improvments**
 
 @ul[](false)
@@ -89,8 +86,11 @@
 - Gazebo now decomposed in Ignition libs : no need of Gazebo to use simulation tools
 - New GUI tools / API / CLI
 @ulend
+@snapend
 
+@snap[text-05 text-black text-left]
 **Webots R2019a (Cyberbotics)**
+
 @ul[](false)
 - Private tool now open
 - Multiplateform (Linux, Mac, Windows)
@@ -101,6 +101,53 @@
 - ROS compatible
 @ulend
 @snapend
+
+@snap[text-05 text-black text-left]
+**QiBullet**
+
+@ul[](false)
+- Intern tool of Softbank now released for the community
+- Pepper / NAO simulator
+- Python API with a ROS wrapper (close from Naoqi API)
+- Does not use Naoqi OS to pilot the Pepper (Shame !)
+- Not all the embedded sensors are simulated (Shame again !)
+@ulend
+@snapend
+
+---
+
+### Features added by the community
+
+- **ROS2RUST** Power of RUST language as an alternative to the C++ / Python.
+- **PyROS** Get ROS inside python (ROS as a python lib). Can create ROS node without ros workspace / packages. Powerful for UI / Web applications.
+- **rosmon** Node launcher with node monitoring and performance diagnostic
+- **plotjuggler** Show topic data in real time. Allow the calculus capacity directly from data (eg. derivation, filtering, ...).
+- **librosqt** Allow to merge the ROS loop with the QT loop for GUI applications
+- **libros2qt** Same as before but for ROS2
+- **ROS tracing** ROS diagnostic tool that helps to understand the messages flow (eg. path of a message through nodes) and the nodes executions.
+-
+
+
+---
+
+### Packages added by the community
+
+- **dynamixel_control** Allow any-level of control on any type of Dynamixel actuator
+
+
+---
+
+### Projects presentations
+
+- **AGIMUS framework**  ROS achitecture for futomatic motion planning for humanoid robots
+- **Autoware.Auto** OpenSource ROS Stack for autonomous driving (will replace **Autoware.AI**)
+- **R2P2** Railway maintenance robot developped by Generation Robots for SNCF
+- **Konexinc** Creation of a ROS based robot to pilot / monitor a house
+- **ROS_2_GUIX** GUIX (Gnu package manager eqv. virtual env) for ros applications  
+- **BOARR** Quadrotor collision avoidance algorithms benchmark based on Gazebo+ROS
+- **Gaby + ROSIhmWeb** ROS Tool to remotly pilot and monitor a fleet of robots
+- **UTBM robocar dataset** New long-term dataset purely based on ROS.
+- **Pulsar** Prototype of an ultra large structure assembly robot simulated under Gazebo.  
 
 ---
 
