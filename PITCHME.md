@@ -40,6 +40,28 @@
 - Rosbag format different (but you can still read ROS1 rosbag with ROS2)
 )
 
+---
+
+# Titre1
+## Titre2
+### Titre3
+#### Titre4
+##### Titre5
+###### Titre6
+
+---
+
+@css[text-25 text-black](text-25)
+@css[text-20 text-black](text-20)
+@css[text-17 text-black](text-17)
+@css[text-15 text-black](text-15)
+@css[text-12 text-black](text-12)
+@css[text-11 text-black](text-11)
+@css[text-10 text-black](text-10)
+@css[text-9 text-black](text-9)
+@css[text-8 text-black](text-8)
+@css[text-7 text-black](text-7)
+
 
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 @title[Customize Slide Layout]
