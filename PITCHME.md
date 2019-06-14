@@ -28,15 +28,17 @@
 
 ### ROS2 features
 
-- @css[text-05 text-black](No more rosmaster (standalone node with broadcasting system))
-- @css[test-05 text-black](No more nodelets (ROS2 nodes ~ nodelets))
-- @css[test-05 text-black](Realtime control)
-- @css[test-05 text-black](Deterministic execution (control on configuration/active/inactive status))
-- @css[test-05 text-black](System security (eg. private nodes, crypted communications, ...))
-- @css[test-05 text-black](Support for small embedded systems (microROS))
-- @css[test-05 text-black](Validation/Verification/Certification tools (for industrial critical apps))
-- @css[test-05 text-black](Python support and same CLI/GUI tools as ROS1 (eg. rqt, rviz, ...))
-- @css[test-05 text-black](Rosbag format different (but you can still read ROS1 rosbag with ROS2))
+@snap[text-05 text-black]
+- No more rosmaster (standalone node with broadcasting system)
+- No more nodelets (ROS2 nodes ~ nodelets)
+- Realtime control
+- Deterministic execution (control on configuration/active/inactive status)
+- System security (eg. private nodes, crypted communications, ...)
+- Support for small embedded systems (microROS)
+- Validation/Verification/Certification tools (for industrial critical apps)
+- Python support and same CLI/GUI tools as ROS1 (eg. rqt, rviz, ...)
+- Rosbag format different (but you can still read ROS1 rosbag with ROS2)
+@snapend
 
 ---
 
