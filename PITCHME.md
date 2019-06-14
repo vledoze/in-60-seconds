@@ -147,6 +147,7 @@
 - Python API with a ROS wrapper (close from Naoqi API)
 - Does not use Naoqi OS to pilot the Pepper (Shame !)
 - Not all the embedded sensors are simulated (Shame again !)
+
 @ulend
 @snapend
 
