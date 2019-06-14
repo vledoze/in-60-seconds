@@ -17,11 +17,11 @@
 - Next ROS1 LTS in 2020 (support until 2025)
 - Creation of a package indexation website
 - New ROS2 distro avaiable since May (Dashing Diademata)
-- ROS2 has been dev. to be safe and reliable -> industrial applications
+- ROS2 has been dev. to be safe and reliable @fa[arrow-right] industrial applications
 
 ---
 
-## ROS2 
+## ROS2
 
 - New distro Dashing Diademata
 - Add Python and CLI Support
