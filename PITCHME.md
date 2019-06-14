@@ -139,7 +139,7 @@
 ### Simulators
 
 @snap[text-05 text-black text-left]
-**TEST**
+QiBullet
 
 @ul[](false)
 - Intern tool of Softbank now released for the community
