@@ -19,7 +19,7 @@
 
 ### ROS1 and ROS2
 
-@snap[text-09 text-black text-left]
+@snap[text-05 text-black text-left span-100]
 @ul[](false)
 - Next ROS1 LTS in 2020 (support until 2025)
 - Next LTS might support python 3
@@ -131,7 +131,7 @@
 @snapend
 
 @snap[east]
-![](https://en.wikipedia.org/wiki/Webots#/media/File:Wbinterface.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Wbinterface.png/230px-Wbinterface.png)
 @snapend
 
 
