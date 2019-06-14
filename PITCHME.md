@@ -1,10 +1,11 @@
 
-# Feedback ROSCON FR 2019
+## Feedback ROSCON FR 2019
 
 ---
 
 ### Main Subjects
 
+@snap[text-09 text-black text-left]
 @ul[](false)
 - ROS1 and ROS2
 - ROS in the industry
@@ -12,17 +13,20 @@
 - Features / Packages added by the community
 - Projects presentations
 @ulend
+@snapend
 
 ---
 
 ### ROS1 and ROS2
 
+@snap[text-05 text-black text-left]
 @ul[](false)
 - Next ROS1 LTS in 2020 (support until 2025)
 - Creation of a package indexation website
 - New ROS2 distro avaiable since May (Dashing Diademata)
 - ROS2 has been dev. to be safe and reliable @fa[arrow-right] industrial applications
 @ulend
+@snapend
 
 ---
 
@@ -73,7 +77,7 @@
 ### Simulators
 
 @snap[text-05 text-black text-left]
-**Gazebo improvments**
+**Gazebo improvments with ROS 2**
 
 @ul[](false)
 - No more killing/relaunch bug !
@@ -88,6 +92,10 @@
 @ulend
 @snapend
 
+---
+
+### Simulators
+
 @snap[text-05 text-black text-left]
 **Webots R2019a (Cyberbotics)**
 
@@ -101,6 +109,10 @@
 - ROS compatible
 @ulend
 @snapend
+
+---
+
+### Simulators
 
 @snap[text-05 text-black text-left]
 **QiBullet**
@@ -125,15 +137,13 @@
 - **librosqt** Allow to merge the ROS loop with the QT loop for GUI applications
 - **libros2qt** Same as before but for ROS2
 - **ROS tracing** ROS diagnostic tool that helps to understand the messages flow (eg. path of a message through nodes) and the nodes executions.
--
-
 
 ---
 
 ### Packages added by the community
 
 - **dynamixel_control** Allow any-level of control on any type of Dynamixel actuator
-
+- **ros_vector** Allow to control the Anki's Vector robot with ROS
 
 ---
 
@@ -170,62 +180,8 @@
 
 @css[text-12 text-black](text-12)
 
-@css[text-11 text-black](text-11)
-
 @css[text-10 text-black](text-10)
-
-@css[text-09 text-black](text-9)
-
-@css[text-08 text-black](text-8)
 
 @css[text-07 text-black](text-7)
 
-@css[text-06 text-black](text-6)
-
 @css[text-05 text-black](text-5)
-
-
----?color=linear-gradient(180deg, white 75%, black 25%)
-@title[Customize Slide Layout]
-
-@snap[west span-50]
-## Customize the Layout
-@snapend
-
-@snap[east span-50]
-![](assets/img/presentation.png)
-@snapend
-
-@snap[south span-100 text-white]
-Snap Layouts let you create custom slide designs directly within your markdown.
-@snapend
-
----?color=linear-gradient(90deg, #E27924 65%, white 35%)
-@title[Add A Little Imagination]
-
-@snap[north-west h4-white]
-#### And start presenting...
-@snapend
-
-@snap[west span-55]
-@ul[spaced text-white]
-- You will be amazed
-- What you can achieve
-- *With a little imagination...*
-- And **GitPitch Markdown**
-@ulend
-@snapend
-
-@snap[east span-45]
-@img[shadow](assets/img/conference.png)
-@snapend
-
----?image=assets/img/presenter.jpg
-
-@snap[north span-100 h2-white]
-## Now It's Your Turn
-@snapend
-
-@snap[south span-100 text-06]
-[Click here to jump straight into the interactive feature guides in the GitPitch Docs @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
-@snapend
