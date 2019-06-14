@@ -11,8 +11,8 @@
 
 - ROS1 and ROS2
 - ROS in the industry
-- Features / Packages added by the community
 - Simulators
+- Features / Packages added by the community
 - Projects presentations
 
 ---
@@ -29,7 +29,7 @@
 ### ROS2 main features
 
 @snap[text-05 text-black]
-@ul[]
+@ol[](false)
 - No more rosmaster (standalone node with broadcasting system)
 - Deterministic execution (control on configuration/active/inactive status)
 - No more nodelets (ROS2 nodes ~ nodelets)
@@ -39,32 +39,61 @@
 - Validation/Verification/Certification tools (for industrial critical apps)
 - Python support and same CLI/GUI tools as ROS1 (eg. rqt, rviz, ...)
 - Rosbag format different (but you can still read ROS1 rosbag with ROS2)
-@ulend
+@olend
 @snapend
 
 ---
 
-### ROS2 and the industry
+### ROS and the industry
 
 @snap[text-05 text-black]
+**Why** ?
 
-Why ?
-
+@ul[]
 - In the past years many acquisitions of companies with ROS based product (eg. Erle, Here Maps, ...)
-
 - Big tech companies are changing their point of view on Open Source
-
 - ROS inherent to robotic development
+@ulend
 
-
-How ?
+**How** ?
 
 @ul[]
 - ROS Industrial (Fraunhofer Institut) : Push forward ROS for industries
 - ROS for railways (SNCF) : Community for ROS applications in railways sector
 - AWS Robomaker (Amazon) : Cloud extension for ROS Dev. / Simulation / Deploiement
+- ROS 2 Technical Steering Commitee with Amazon, Intel, Microsoft, Bosch, and many other big companies... : Dev. effort / Roadmap / Dev. Policies
 @ulend
+@snapend
 
+---
+
+### Simulators
+
+@snap[text-05 text-black]
+**Gazebo improvments**
+
+@ol[](false)
+- No more killing/relaunch bug !
+- New graphicals engines
+    + 4 avaiables
+    + Chosen at runtime
+    + Common API for all engines
+    + Allow to choose an only kinematic engine
+- Gazebo-Ignition avaiable with ROS2
+- Gazebo now decomposed in Ignition libs : no need of Gazebo to use simulation tools
+- New GUI tools / API / CLI
+@olend
+
+**Webots (Cyberbotics)**
+@ol[](false)
+- Private tool now open
+- Multiplateform (Linux, Mac, Windows)
+- Big library of free to use simulated robots / sensors / actuators / parts
+- API for component creation
+- Simulation of urban environnment
+- Powerfull graphical engine - really interesting for image processing in simulation
+- ROS compatible 
+@olend
 @snapend
 
 ---
