@@ -28,15 +28,15 @@
 
 ### ROS2 features
 
-- @css[text-5 text-black](No more rosmaster (standalone node with broadcasting system))
-- @css[test-5 text-black](No more nodelets (ROS2 nodes ~ nodelets))
-- @css[test-5 text-black](Realtime control)
-- @css[test-5 text-black](Deterministic execution (control on configuration/active/inactive status))
-- @css[test-5 text-black](System security (eg. private nodes, crypted communications, ...))
-- @css[test-5 text-black](Support for small embedded systems (microROS))
-- @css[test-5 text-black](Validation/Verification/Certification tools (for industrial critical apps))
-- @css[test-5 text-black](Python support and same CLI/GUI tools as ROS1 (eg. rqt, rviz, ...))
-- @css[test-5 text-black](Rosbag format different (but you can still read ROS1 rosbag with ROS2))
+- @css[text-05 text-black](No more rosmaster (standalone node with broadcasting system))
+- @css[test-05 text-black](No more nodelets (ROS2 nodes ~ nodelets))
+- @css[test-05 text-black](Realtime control)
+- @css[test-05 text-black](Deterministic execution (control on configuration/active/inactive status))
+- @css[test-05 text-black](System security (eg. private nodes, crypted communications, ...))
+- @css[test-05 text-black](Support for small embedded systems (microROS))
+- @css[test-05 text-black](Validation/Verification/Certification tools (for industrial critical apps))
+- @css[test-05 text-black](Python support and same CLI/GUI tools as ROS1 (eg. rqt, rviz, ...))
+- @css[test-05 text-black](Rosbag format different (but you can still read ROS1 rosbag with ROS2))
 
 ---
 
@@ -56,9 +56,11 @@
 @css[text-12 text-black](text-12)
 @css[text-11 text-black](text-11)
 @css[text-10 text-black](text-10)
-@css[text-9 text-black](text-9)
-@css[text-8 text-black](text-8)
-@css[text-7 text-black](text-7)
+@css[text-09 text-black](text-9)
+@css[text-08 text-black](text-8)
+@css[text-07 text-black](text-7)
+@css[text-06 text-black](text-6)
+@css[text-05 text-black](text-5)
 
 
 ---?color=linear-gradient(180deg, white 75%, black 25%)
