@@ -1,4 +1,4 @@
-@snap[span-50]
+@snap[midpoint span-50]
 
 # Feedback ROSCON FR 2019
 
