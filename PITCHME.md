@@ -130,7 +130,7 @@
 @ulend
 @snapend
 
-@snap[south-east span-35]
+@snap[south-east span-30]
 ![](https://upload.wikimedia.org/wikipedia/commons/8/82/Wbinterface.png)
 @snapend
 
@@ -151,8 +151,7 @@
 @snapend
 
 @snap[south-east span-35]
-![]
-https://raw.githubusercontent.com/ProtolabSBRE/qibullet/master/ressources/short_top_cam.gif
+![](https://raw.githubusercontent.com/ProtolabSBRE/qibullet/master/ressources/short_top_cam.gif)
 @snapend
 
 ---
