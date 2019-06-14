@@ -1,4 +1,4 @@
-@snap[text-left span-30]
+@snap[span-30]
 
 # Feedback ROSCON FR 2019
 
