@@ -1,10 +1,31 @@
-# Let's Get Started
+# Feedback ROSCON FR 2019
 
 ---
 
-## Add Some Slide Candy
+## Main Subjects
 
-![](assets/img/presentation.png)
+- ROS1 and ROS2
+- ROS in the industry
+- Features / Packages added by the community
+- Simulators
+- Projects presentations
+
+---
+
+## ROS1 and ROS2
+
+- Next ROS1 LTS in 2020 (support until 2025)
+- Creation of a package indexation website
+- New ROS2 distro avaiable since May (Dashing Diademata)
+- ROS2 has been dev. to be safe and reliable -> industrial applications
+
+---
+
+## ROS2 
+
+- New distro Dashing Diademata
+- Add Python and CLI Support
+- New way
 
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 @title[Customize Slide Layout]
