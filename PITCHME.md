@@ -117,23 +117,22 @@
 **Webots R2019a (Cyberbotics)**
 
 @ul[](false)
-- Private tool now open
+- Private tool now open (since December 2018)
 - Multi-plateform (Linux, Mac, Windows)
 - Big library of free-to-use simulated robots / sensors / actuators / parts
 - GUI editor for robot creation
-- C++ / Python API for component creation
+- C, C++, Python, ROS, Java and Matlab API for component creation and interaction
+- ROS compatible (ROS2 incoming)
 - Simulation of urban environnment
 - Powerfull graphical engine - really interesting for image processing in simulation
     + Optical distorsion / blur / reflect implemented
-    +
-- ROS compatible (ROS2 incoming)
+    + Optimized
 @ulend
 @snapend
 
 @snap[east]
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Wbinterface.png/230px-Wbinterface.png)
+![](https://upload.wikimedia.org/wikipedia/commons/8/82/Wbinterface.png)
 @snapend
-
 
 ---
 
@@ -155,6 +154,8 @@
 
 ### Features added by the community
 
+@snap[text-05 text-black text-left]
+@ul[](false)
 - **ROS2RUST** Power of RUST language as an alternative to the C++ / Python.
 - **PyROS** Get ROS inside python (ROS as a python lib). Can create ROS node without ros workspace / packages. Powerful for UI / Web applications.
 - **rosmon** Node launcher with node monitoring and performance diagnostic
@@ -162,18 +163,26 @@
 - **librosqt** Allow to merge the ROS loop with the QT loop for GUI applications
 - **libros2qt** Same as before but for ROS2
 - **ROS tracing** ROS diagnostic tool that helps to understand the messages flow (eg. path of a message through nodes) and the nodes executions.
+@ulend
+@snapend
 
 ---
 
 ### Packages added by the community
 
+@snap[text-05 text-black text-left]
+@ul[](false)
 - **dynamixel_control** Allow any-level of control on any type of Dynamixel actuator
 - **ros_vector** Allow to control the Anki's Vector robot with ROS
+@ulend
+@snapend
 
 ---
 
 ### Projects presentations
 
+@snap[text-05 text-black text-left]
+@ul[](false)
 - **AGIMUS framework**  ROS achitecture for futomatic motion planning for humanoid robots
 - **Autoware.Auto** OpenSource ROS Stack for autonomous driving (will replace **Autoware.AI**)
 - **R2P2** Railway maintenance robot developped by Generation Robots for SNCF
@@ -183,6 +192,8 @@
 - **Gaby + ROSIhmWeb** ROS Tool to remotly pilot and monitor a fleet of robots
 - **UTBM robocar dataset** New long-term dataset purely based on ROS.
 - **Pulsar** Prototype of an ultra large structure assembly robot simulated under Gazebo.  
+@ulend
+@snapend
 
 ---
 
