@@ -19,9 +19,10 @@
 
 ### ROS1 and ROS2
 
-@snap[text-05 text-black text-left]
+@snap[text-09 text-black text-left]
 @ul[](false)
 - Next ROS1 LTS in 2020 (support until 2025)
+- Next LTS might support python 3
 - Creation of a package indexation website
 - New ROS2 distro avaiable since May (Dashing Diademata)
 - ROS2 has been dev. to be safe and reliable @fa[arrow-right] industrial applications
@@ -34,16 +35,28 @@
 
 @snap[text-05 text-black text-left]
 @ul[](false)
-- No more rosmaster (standalone node with broadcasting system : ROS2 is a distributed system)
-- Deterministic execution (control on configuration/active/inactive status)
+- No more rosmaster and param server
+    + standalone nodes with broadcasting systems
+    + ROS2 is a distributed system
+- Deterministic execution
+    + Control and monitoring of node status (configuration/active/inactive)
+    + Realtime applications
+- Quality of Service improvements
+    + Topic Deadline (Data must arrive before it's too late)
+    + Topic LifeSpan (Data obsolescence principle)
+    + Node Liveliness
 - No more nodelets (ROS2 nodes ~ nodelets)
-- Realtime control
-- System security (eg. private nodes, crypted communications, ...)
+- System security (hacking-proof)
+    + concept of private nodes or group of nodes
+    + crypted communications
+    + ROS2 threat model and security testing tool (from Amazon)
 - Support for small embedded systems (microROS)
-- Validation/Verification/Certification tools (for industrial critical apps)
-- Python support and same CLI/GUI tools as ROS1 (eg. rqt, rviz, ...)
-- Rosbag format different (but you can still read ROS1 rosbag with ROS2)
+- Code quality improvements
+    + Validation/Verification/Certification tools (for industrial critical apps)
+    + Sanitizer tool (from Amazon)
+- Python support and CLI/GUI tools such as ROS1 (eg. rqt, rviz, ...)
 - Actions nativly integrated with CLI tools (just like Services / Topics)
+- Rosbag format different from ROS1 (but you can still read ROS1 rosbag with ROS2)
 @ulend
 @snapend
 
@@ -67,8 +80,12 @@
 @ul[](false)
 - ROS Industrial (Fraunhofer Institut) : Push forward ROS for industries
 - ROS for railways (SNCF) : Community for ROS applications in railways sector
-- AWS Robomaker (Amazon) : Cloud extension for ROS Dev. / Simulation / Deploiement
-- ROS 2 Technical Steering Commitee with Amazon, Intel, Microsoft, Bosch, and many other big companies... : Dev. effort / Roadmap / Dev. Policies
+- AWS Robomaker (Amazon) : Cloud extension for ROS Dev. / Simulation / Deployment
+- ROS 2 Technical Steering Commitee include Amazon, Intel, Microsoft, Bosch, and many other big companies...
+    + Help in the Dev. effort
+    + Help to Establish Roadmap
+    + Help to Establish Dev. Policies
+    + All decisions on consensus (if not they vote)
 @ulend
 @snapend
 
@@ -87,7 +104,7 @@
     + Common API for all engines
     + Allow to choose an only kinematic engine
 - Gazebo-Ignition avaiable with ROS2
-- Gazebo now decomposed in Ignition libs : no need of Gazebo to use simulation tools
+- Gazebo now decomposed in Ignition libs @fa[arrow-right] no need of Gazebo to use simulation tools
 - New GUI tools / API / CLI
 @ulend
 @snapend
@@ -101,14 +118,22 @@
 
 @ul[](false)
 - Private tool now open
-- Multiplateform (Linux, Mac, Windows)
-- Big library of free to use simulated robots / sensors / actuators / parts
-- API for component creation
+- Multi-plateform (Linux, Mac, Windows)
+- Big library of free-to-use simulated robots / sensors / actuators / parts
+- GUI editor for robot creation
+- C++ / Python API for component creation
 - Simulation of urban environnment
 - Powerfull graphical engine - really interesting for image processing in simulation
-- ROS compatible
+    + Optical distorsion / blur / reflect implemented
+    +
+- ROS compatible (ROS2 incoming)
 @ulend
 @snapend
+
+@snap[east]
+![](https://en.wikipedia.org/wiki/Webots#/media/File:Wbinterface.png)
+@snapend
+
 
 ---
 
