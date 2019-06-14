@@ -130,7 +130,7 @@
 @ulend
 @snapend
 
-@snap[north-east span-30]
+@snap[east span-30]
 ![](https://upload.wikimedia.org/wikipedia/commons/8/82/Wbinterface.png)
 @snapend
 
