@@ -26,14 +26,14 @@
 
 ---
 
-### ROS2 features
+### ROS2 main features
 
 @snap[text-05 text-black]
 @ul[]
 - No more rosmaster (standalone node with broadcasting system)
+- Deterministic execution (control on configuration/active/inactive status)
 - No more nodelets (ROS2 nodes ~ nodelets)
 - Realtime control
-- Deterministic execution (control on configuration/active/inactive status)
 - System security (eg. private nodes, crypted communications, ...)
 - Support for small embedded systems (microROS)
 - Validation/Verification/Certification tools (for industrial critical apps)
@@ -42,6 +42,25 @@
 @ulend
 @snapend
 
+---
+
+### ROS2 and the industry
+
+@snap[text-05 text-black]
+Why ?
+@ul[]
+- In the past years many acquisitions of companies with ROS based product (eg. Erle, Here Maps, ...)
+- Big tech companies are changing their point of view on Open Source
+- ROS inherent to robotic development 
+@ulend
+How ?
+@ul[]
+- ROS Industrial (Fraunhofer Institut) : Push forward ROS for industries
+- ROS for railways (SNCF) : community for ROS applications in railways
+- AWS Robomaker (Amazon) : Cloud extension for ROS Dev. / Simulation / Deploiement
+@ulend
+
+@snapend
 
 ---
 
@@ -55,16 +74,27 @@
 ---
 
 @css[text-25 text-black](text-25)
+
 @css[text-20 text-black](text-20)
+
 @css[text-17 text-black](text-17)
+
 @css[text-15 text-black](text-15)
+
 @css[text-12 text-black](text-12)
+
 @css[text-11 text-black](text-11)
+
 @css[text-10 text-black](text-10)
+
 @css[text-09 text-black](text-9)
+
 @css[text-08 text-black](text-8)
+
 @css[text-07 text-black](text-7)
+
 @css[text-06 text-black](text-6)
+
 @css[text-05 text-black](text-5)
 
 
