@@ -94,7 +94,7 @@
 ### Simulators
 
 @snap[text-05 text-black text-left]
-**Gazebo improvments with ROS 2**
+**Gazebo improvements with ROS 2**
 
 @ul[](false)
 - No more killing/relaunch bug !
@@ -193,37 +193,10 @@
 - **Autoware.Auto** OpenSource ROS Stack for autonomous driving (will replace **Autoware.AI**)
 - **R2P2** Railway maintenance robot developped by Generation Robots for SNCF
 - **Konexinc** Creation of a ROS based robot to pilot / monitor a house
-- **ROS_2_GUIX** GUIX (Gnu package manager eqv. virtual env) for ros applications  
+- **ROS_2_GUIX** GUIX for ros applications  (Gnu package manager eqv. virtual env) 
 - **BOARR** Quadrotor collision avoidance algorithms benchmark based on Gazebo+ROS
 - **Gaby + ROSIhmWeb** ROS Tool to remotly pilot and monitor a fleet of robots
 - **UTBM robocar dataset** New long-term dataset purely based on ROS.
 - **Pulsar** Prototype of an ultra large structure assembly robot simulated under Gazebo.  
 @ulend
 @snapend
-
----
-
-# Titre1
-## Titre2
-### Titre3
-#### Titre4
-##### Titre5
-###### Titre6
-
----
-
-@css[text-25 text-black](text-25)
-
-@css[text-20 text-black](text-20)
-
-@css[text-17 text-black](text-17)
-
-@css[text-15 text-black](text-15)
-
-@css[text-12 text-black](text-12)
-
-@css[text-10 text-black](text-10)
-
-@css[text-07 text-black](text-7)
-
-@css[text-05 text-black](text-5)
