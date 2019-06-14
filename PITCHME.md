@@ -130,7 +130,7 @@
 @ulend
 @snapend
 
-@snap[east]
+@snap[east span-20]
 ![](https://upload.wikimedia.org/wikipedia/commons/8/82/Wbinterface.png)
 @snapend
 
@@ -156,10 +156,10 @@
 
 @snap[text-05 text-black text-left]
 @ul[](false)
-- **ROS2RUST** Power of RUST language as an alternative to the C++ / Python.
+- **ROS2RUST** Power of RUST language as an alternative to the C++ / Python for ROS nodes
 - **PyROS** Get ROS inside python (ROS as a python lib). Can create ROS node without ros workspace / packages. Powerful for UI / Web applications.
 - **rosmon** Node launcher with node monitoring and performance diagnostic
-- **plotjuggler** Show topic data in real time. Allow the calculus capacity directly from data (eg. derivation, filtering, ...).
+- **plotjuggler** Show topic data in real time. Allow online data processing (eg. derivation, filtering, ...).
 - **librosqt** Allow to merge the ROS loop with the QT loop for GUI applications
 - **libros2qt** Same as before but for ROS2
 - **ROS tracing** ROS diagnostic tool that helps to understand the messages flow (eg. path of a message through nodes) and the nodes executions.
