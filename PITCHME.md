@@ -130,7 +130,7 @@
 @ulend
 @snapend
 
-@snap[east span-30]
+@snap[south-east span-35]
 ![](https://upload.wikimedia.org/wikipedia/commons/8/82/Wbinterface.png)
 @snapend
 
@@ -148,6 +148,11 @@
 - Does not use Naoqi OS to pilot the Pepper (Shame !)
 - Not all the embedded sensors are simulated (Shame again !)
 @ulend
+@snapend
+
+@snap[south-east span-35]
+![]
+https://raw.githubusercontent.com/ProtolabSBRE/qibullet/master/ressources/short_top_cam.gif
 @snapend
 
 ---
