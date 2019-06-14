@@ -6,3 +6,12 @@
   box-shadow:0 14px 20px 0 rgba(0,0,0,0.2),0 10px 24px 0 rgba(0,0,0,0.19) !important;
 }
 
+.reveal pre code {
+  font-size: 0.5em;
+  line-height: 0.5;
+}
+
+.reveal pre {
+  width: 100%;
+  margin-left: 0%;
+}

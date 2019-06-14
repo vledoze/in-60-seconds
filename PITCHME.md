@@ -1,13 +1,13 @@
 
 @snap[west span-100]
 
-## Feedback ROSCON FR 2019
+### Feedback ROSCON FR 2019
 
 @snapend
 
 ---
 
-## Main Subjects
+#### Main Subjects
 
 - ROS1 and ROS2
 - ROS in the industry
@@ -17,7 +17,7 @@
 
 ---
 
-## ROS1 and ROS2
+#### ROS1 and ROS2
 
 - Next ROS1 LTS in 2020 (support until 2025)
 - Creation of a package indexation website
@@ -26,11 +26,17 @@
 
 ---
 
-## ROS2
+#### ROS2 features
 
-- New distro Dashing Diademata
-- Add Python and CLI Support
-- New way
+- No more rosmaster (standalone node with broadcasting system)
+- No more nodelets (ROS2 nodes ~ nodelets)
+- Realtime control
+- Deterministic execution (control on configuration/active/inactive status)
+- System security (eg. private nodes, crypted communications, ...)
+- Support for small embedded systems (microROS)
+- Validation/Verification/Certification tools (for industrial critical apps)
+- Python support and same CLI/GUI tools as ROS1 (eg. rqt, rviz, ...)
+- Rosbag format different (but you can still read ROS1 rosbag with ROS2)
 
 
 ---?color=linear-gradient(180deg, white 75%, black 25%)
