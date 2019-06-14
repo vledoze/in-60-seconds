@@ -29,6 +29,7 @@
 ### ROS2 features
 
 @snap[text-05 text-black]
+@ul[]
 - No more rosmaster (standalone node with broadcasting system)
 - No more nodelets (ROS2 nodes ~ nodelets)
 - Realtime control
@@ -38,7 +39,9 @@
 - Validation/Verification/Certification tools (for industrial critical apps)
 - Python support and same CLI/GUI tools as ROS1 (eg. rqt, rviz, ...)
 - Rosbag format different (but you can still read ROS1 rosbag with ROS2)
+@ulend
 @snapend
+
 
 ---
 
