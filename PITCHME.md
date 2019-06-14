@@ -47,16 +47,21 @@
 ### ROS2 and the industry
 
 @snap[text-05 text-black]
+
 Why ?
-@ul[]
+
 - In the past years many acquisitions of companies with ROS based product (eg. Erle, Here Maps, ...)
+
 - Big tech companies are changing their point of view on Open Source
-- ROS inherent to robotic development 
-@ulend
+
+- ROS inherent to robotic development
+
+
 How ?
+
 @ul[]
 - ROS Industrial (Fraunhofer Institut) : Push forward ROS for industries
-- ROS for railways (SNCF) : community for ROS applications in railways
+- ROS for railways (SNCF) : Community for ROS applications in railways sector
 - AWS Robomaker (Amazon) : Cloud extension for ROS Dev. / Simulation / Deploiement
 @ulend
 
