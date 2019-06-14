@@ -1,8 +1,5 @@
-@snap[midpoint span-50]
 
-# Feedback ROSCON FR 2019
-
-@snapend
+## Feedback ROSCON FR 2019
 
 ---
 
