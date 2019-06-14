@@ -9,27 +9,31 @@
 
 ### Main Subjects
 
+@ul[](false)
 - ROS1 and ROS2
 - ROS in the industry
 - Simulators
 - Features / Packages added by the community
 - Projects presentations
+@ulend
 
 ---
 
 ### ROS1 and ROS2
 
+@ul[](false)
 - Next ROS1 LTS in 2020 (support until 2025)
 - Creation of a package indexation website
 - New ROS2 distro avaiable since May (Dashing Diademata)
 - ROS2 has been dev. to be safe and reliable @fa[arrow-right] industrial applications
+@ulend
 
 ---
 
 ### ROS2 main features
 
 @snap[text-05 text-black]
-@ol[](false)
+@ul[](false)
 - No more rosmaster (standalone node with broadcasting system)
 - Deterministic execution (control on configuration/active/inactive status)
 - No more nodelets (ROS2 nodes ~ nodelets)
@@ -39,7 +43,7 @@
 - Validation/Verification/Certification tools (for industrial critical apps)
 - Python support and same CLI/GUI tools as ROS1 (eg. rqt, rviz, ...)
 - Rosbag format different (but you can still read ROS1 rosbag with ROS2)
-@olend
+@ulend
 @snapend
 
 ---
@@ -47,17 +51,19 @@
 ### ROS and the industry
 
 @snap[text-05 text-black]
-**Why** ?
+**Why ?**
 
-@ul[]
+@ul[](false)
 - In the past years many acquisitions of companies with ROS based product (eg. Erle, Here Maps, ...)
 - Big tech companies are changing their point of view on Open Source
 - ROS inherent to robotic development
 @ulend
+@snapend
 
-**How** ?
+@snap[text-05 text-black]
+**How ?**
 
-@ul[]
+@ul[](false)
 - ROS Industrial (Fraunhofer Institut) : Push forward ROS for industries
 - ROS for railways (SNCF) : Community for ROS applications in railways sector
 - AWS Robomaker (Amazon) : Cloud extension for ROS Dev. / Simulation / Deploiement
@@ -72,7 +78,7 @@
 @snap[text-05 text-black]
 **Gazebo improvments**
 
-@ol[](false)
+@ul[](false)
 - No more killing/relaunch bug !
 - New graphicals engines
     + 4 avaiables
@@ -82,18 +88,18 @@
 - Gazebo-Ignition avaiable with ROS2
 - Gazebo now decomposed in Ignition libs : no need of Gazebo to use simulation tools
 - New GUI tools / API / CLI
-@olend
+@ulend
 
-**Webots (Cyberbotics)**
-@ol[](false)
+**Webots R2019a (Cyberbotics)**
+@ul[](false)
 - Private tool now open
 - Multiplateform (Linux, Mac, Windows)
 - Big library of free to use simulated robots / sensors / actuators / parts
 - API for component creation
 - Simulation of urban environnment
 - Powerfull graphical engine - really interesting for image processing in simulation
-- ROS compatible 
-@olend
+- ROS compatible
+@ulend
 @snapend
 
 ---
