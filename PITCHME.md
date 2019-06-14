@@ -139,15 +139,12 @@
 ### Simulators
 
 @snap[text-05 text-black text-left]
-**QiBullet**
-
 @ul[](false)
 - Intern tool of Softbank now released for the community
 - Pepper / NAO simulator
 - Python API with a ROS wrapper (close from Naoqi API)
 - Does not use Naoqi OS to pilot the Pepper (Shame !)
 - Not all the embedded sensors are simulated (Shame again !)
-
 @ulend
 @snapend
 
